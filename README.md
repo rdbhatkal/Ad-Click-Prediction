@@ -35,20 +35,21 @@ Here is the Data Dictionary for this dataset:
 
 ## Methodology
 1. Use pandas library to perform data cleaning: 
-    1. Deleting duplicate values
-    1. Identifying and handling missing values by imputing its mean
-    1. Replacing the miscoded information 
-2. Create Exploratory Data Analysis on the data using pandas.
-3. Create Explanatory visualization of feature distributions and correlation using matplotlib, seaborn and pandas
-4. Build regression models on selected features and target variable  
-    1. Identify three types of features (Numeric, Ordinal, Nominal)
+    1. Check for duplicate values
+    2. Identifying and handling missing values 
+    3. Look for outliers in the dataset
+2. Adding more features to our dataset using Feature Engineering techniques
+3. Create Exploratory Data Analysis on the data using pandas.
+4. Create Explanatory visualization of feature distributions and correlation using matplotlib, seaborn and pandas
+5. Build logistic regression models on selected features and target variable  
+    1. Identify types of features (Numeric, Nominal)
     1. Transform each type of feature for machine learning
-    1. Use ordinal encoding for ordinal categorical features.
+    1. Use StandardScalar to scale our data.
     1. Use OneHotEncoder() to one-hot encode nominal categorical features.
     1. Use ColumnTransformer to perform different strategies on different columns types
     1. Combine pipelines and column transformers to perform multiple transformations on different subsets of data.
-5. Evaluate the logistic model using accuracy, recall and precision scores in Python.
-6. Choose the most important metric for the analysis
+6. Evaluate the logistic regression model using accuracy, recall and precision scores in Python.
+7. Choose the most important metric for the analysis
 
 
 
