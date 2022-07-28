@@ -57,7 +57,7 @@ Here is the Data Dictionary for this dataset:
 
 
 ### AD CLICKS BASED ON DAILY TIME SPENT ON SITE
-
+<img src = "Images/Obv 1.jpg" >
 
 
 From the above plot, we can observe that even though people are spending more time on the internet they are not clicking more ads
