@@ -73,4 +73,29 @@ Additionaly:
 * Women also tend to click on Ads slightly more than Men
 
 
+### TBD 
+
+
+## Model
+
+We build a Random Forest, KNN Classifier and Logistic Regression model to understand which is more reliable for prediction of the Clicked on Ads variable.
+### Random Forest
+The default Random Forest gives the following metrics: 
+* Accuracy of Train set 1.0
+* Accuracy of Test set 0.94
+
+We try to improve our model by tuning the hyperparameters.
+By Setting our Random Forest Classifier model with n_estimator = 50 and max_depth = 4  gives the following metrics: 
+* Training accuracy: 0.976
+* Test accuracy: 0.944
+
+We can see that after tuning our hyperparameters, our accuracy on the test set has increased from 94% to 94.4%
+
+
+The confusion matrix shows that this model is slightly better at predicting users who clicked on Ads vs users who did not click on Ads.
+In order to get the full picture of how our model is performing we can take a look at the clasification report
+
+
+
+
 
