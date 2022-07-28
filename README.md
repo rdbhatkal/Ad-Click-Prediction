@@ -152,3 +152,13 @@ In order to get the full picture of how our model is performing we can take a lo
 <img src = "Images/LRObs.JPG" >
 
 We can see that the Logistic Regression model gives us an overall accuracy of 96%
+
+
+## Recommendations:
+
+
+
+
+## Limitations & Next Steps
+
+
