@@ -73,8 +73,14 @@ Additionaly:
 * Women also tend to click on Ads slightly more than Men
 
 
-### TBD 
+### PEOPLE IN EACH GROUP WHO CLICKED ON ADS 
+<img src = "Images/ob2.jpg" >
 
+From the above chart we observe that:
+*	The highest group of people i.e 43% of people who click on Ads belong to the Age group 31-42
+*	20 % of people who click on Ads belong to the Age group 43-48
+*	Ages 31-48 seems like a population of working class people. This could indicate that, these people spend higher amount of time on the Internet and hence are more susceptible to click on Ads
+*	The lowest group of people i.e 3% of people who click on Ads belong to the Age group 19-24
 
 ## Model
 
