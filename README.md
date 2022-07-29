@@ -79,6 +79,9 @@ Additionaly:
 ## Model
 
 We build a Random Forest, KNN Classifier and Logistic Regression model to understand which is more reliable for prediction of the Clicked on Ads variable.
+We model our data using our original dataset as well as a feature engineered dataset to see if we can get a better model. 
+
+Through our analysis we found that our model without added features performed better.
 
 ### Random Forest
 The default Random Forest gives the following metrics: 
@@ -86,33 +89,33 @@ The default Random Forest gives the following metrics:
 * Accuracy of Test set 0.94
 
 We try to improve our model by tuning the hyperparameters.
-By Setting our Random Forest Classifier model with n_estimator = 50 and max_depth = 4  gives the following metrics: 
-* Training accuracy: 0.976
-* Test accuracy: 0.944
+By Setting our Random Forest Classifier model with n_estimator = 40 and max_depth = 8  gives the following metrics: 
+* Training accuracy: 0.99
+* Test accuracy: 0.952
 
-We can see that after tuning our hyperparameters, our accuracy on the test set has increased from 94% to 94.4%
+We can see that after tuning our hyperparameters, our accuracy on the test set has increased from 94.4% to 95.2%
 
 <img src = "Images/RFMatrix.JPG" >
 
-The confusion matrix shows that this model is slightly better at predicting users who clicked on Ads vs users who did not click on Ads.
+The confusion matrix shows that this model is slightly better at predicting users who did not clicked on Ads vs users who clicked on Ads.
 
 In order to get the full picture of how our model is performing we can take a look at the clasification report
 
 <img src = "Images/RFscore.JPG" >
 
-We can see that the Random Forest Classifier model gives us an overall accuracy of 94%
+We can see that the Random Forest Classifier model gives us an overall accuracy of 95%
 
 ### KNN Classifier
 The default KNN model gives the following metrics: 
-* Accuracy of Train set 0.969
-* Accuracy of Test set 0.924
+* Accuracy of Train set 0.973
+* Accuracy of Test set 0.936
 
 We try to improve our model by tuning the hyperparameters.
-By Setting our KNN Classifier model with n_neighbours = 3 gives the following metrics: 
-* Training accuracy: 0.973
-* Test accuracy: 0.94
+By Setting our KNN Classifier model with n_neighbours = 17 gives the following metrics: 
+* Training accuracy: 0.969
+* Test accuracy: 0.948
 
-We can see that after tuning our hyperparameters, our accuracy on the test set has increased from 92.4% to 94%
+We can see that after tuning our hyperparameters, our accuracy on the test set has increased from 93.6% to 94.8%
 
 <img src = "Images/KNNMatrix.JPG" >
 
@@ -122,27 +125,25 @@ In order to get the full picture of how our model is performing we can take a lo
 
 <img src = "Images/KNNscore.JPG" >
 
-We can see that the KNN Classifier model gives us an overall accuracy of 94%
+We can see that the KNN Classifier model gives us an overall accuracy of 95%
 
 ### Logistic Regression
 The default logistic regression model gives the following metrics: 
-* Accuracy of Train set 0.984
-* Accuracy of Test set 0.952
+* Accuracy of Train set 0.976
+* Accuracy of Test set 0.964
 
 We try to improve our model by tuning the hyperparameters.
 Next we apply L1 and L2 penalty and liblinear solver to see if we can improve our logistic regression model. We get the below metrics for L1 and L2 penalty 
 
-* Accuracy of Train set with L1 penalty 0.9773333333333334
-* Accuracy of Test set with L1 penalty 0.956
+* Accuracy of Train set with L1 penalty 0.976
+* Accuracy of Test set with L1 penalty 0.964
 
-* Accuracy of Train set with L2 penalty 0.984
-* Accuracy of Test set with L2 penalty 0.952
+* Accuracy of Train set with L2 penalty 0.976
+* Accuracy of Test set with L2 penalty 0.964
 
-By Setting our logistic regression model with solver='liblinear', penalty='l1' and C=1 gives us an accuracy of 95.6% on our test set
-By Setting our logistic regression model with solver='liblinear', penalty='l2' and C=1 gives us an accuracy of 95.2% on our test set
-
+By Setting our logistic regression model with solver='liblinear', penalty='l2'or 'l1' and C=1 gives us an accuracy of 96.4% on our test set
+ 
 Both of these are similar to our default model. 
-There is a very slight improvement to our model with 'l1' penalty so we use this model for our predictions 
 
 <img src = "Images/LRMatrix.JPG" >
 
