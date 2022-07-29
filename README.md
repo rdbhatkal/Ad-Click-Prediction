@@ -163,5 +163,5 @@ We can see that the Logistic Regression model gives us an overall accuracy of 96
 ## Limitations & Next Steps
 
 This dataset currently has very few datapoints for location, so we should work on collecting more data for specific countries and cities. Additionally, since the dataset has location and timestamp data, we can possibly create more powerful models using these features. 
-With marketing over the internet taking over traditional marketing, a lot of companies prefer to advertise their products on the web. This concept of ad click prediction will allow companies to maximize their revenue while offering targeted marketing to customers 
+With digital marketing dominating over traditional marketing, a lot of companies prefer to advertise their products on the web. This model of ad click prediction will allow companies to maximize their revenue while offering targeted marketing to customers 
 
