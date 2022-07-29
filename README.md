@@ -92,13 +92,13 @@ By Setting our Random Forest Classifier model with n_estimator = 50 and max_dept
 
 We can see that after tuning our hyperparameters, our accuracy on the test set has increased from 94% to 94.4%
 
-<img src = "Images/RFMatrix.jpg" >
+<img src = "Images/RFMatrix.JPG" >
 
 The confusion matrix shows that this model is slightly better at predicting users who clicked on Ads vs users who did not click on Ads.
 
 In order to get the full picture of how our model is performing we can take a look at the clasification report
 
-<img src = "Images/RFObs.JPG" >
+<img src = "Images/RFscore.JPG" >
 
 We can see that the Random Forest Classifier model gives us an overall accuracy of 94%
 
@@ -114,13 +114,13 @@ By Setting our KNN Classifier model with n_neighbours = 3 gives the following me
 
 We can see that after tuning our hyperparameters, our accuracy on the test set has increased from 92.4% to 94%
 
-<img src = "Images/KNNMatrix.jpg" >
+<img src = "Images/KNNMatrix.JPG" >
 
 The confusion matrix shows that this model is very good at predicting users who did not click on Ads vs users who clicked on Ads.
 
 In order to get the full picture of how our model is performing we can take a look at the clasification report
 
-<img src = "Images/KNNObs.JPG" >
+<img src = "Images/KNNscore.JPG" >
 
 We can see that the KNN Classifier model gives us an overall accuracy of 94%
 
@@ -144,12 +144,12 @@ By Setting our logistic regression model with solver='liblinear', penalty='l2' a
 Both of these are similar to our default model. 
 There is a very slight improvement to our model with 'l1' penalty so we use this model for our predictions 
 
-<img src = "Images/LRMatrix.jpg" >
+<img src = "Images/LRMatrix.JPG" >
 
 The confusion matrix shows that this model is slightly better at predicting users who did not click on Ads vs users who clicked on Ads.
 In order to get the full picture of how our model is performing we can take a look at the classification report
 
-<img src = "Images/LRObs.JPG" >
+<img src = "Images/LRscore.JPG" >
 
 We can see that the Logistic Regression model gives us an overall accuracy of 96%
 
