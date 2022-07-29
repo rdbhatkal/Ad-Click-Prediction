@@ -157,7 +157,12 @@ We can see that the Logistic Regression model gives us an overall accuracy of 96
 
 ## Recommendations:
 
+We recommend using the Logistic Regression model for prediction of the Clicked on Ads variable.
+Through our analysis we found that the initial model for Logistic regression did not change much when we tried to hyper tune its parameters or add different penalties. Even though we couldn’t improve our initial model, the Logistic Regression model had a better accuracy score than the Random Forest model as well as K Nearest Neighbors model. 
 
+The Logistic Regression model also had a high precision and recall score compared to other models. These metrics are important as there is cost associated with digital marketing advertisements and the cost of acting on a false positive could be really high.
+
+Ideally, we would like to improve our score, but 96% may be the best possible with the available data. Since advertising agency in the real world would probably have a lot more data which we can use to further analyze and draw insights.
 
 
 ## Limitations & Next Steps
