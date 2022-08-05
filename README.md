@@ -72,15 +72,33 @@ Additionaly:
 
 * Women also tend to click on Ads slightly more than Men
 
+### DAILY AVERAGE TIME SPENT BY EACH AGE GROUP ON THE SITE 
+<img src = "Images/pie.jpg" >
 
-### PEOPLE IN EACH GROUP WHO CLICKED ON ADS 
-<img src = "Images/ob2.jpg" >
+* We see that People in the Age group 19-24 , 25-30 and 31-42, have a higher daily average time spent on the site 
 
-From the above chart we observe that:
-*	The highest group of people i.e 43% of people who click on Ads belong to the Age group 31-42
-*	20 % of people who click on Ads belong to the Age group 43-48
-*	Ages 31-48 seems like a population of working class people. This could indicate that, these people spend higher amount of time on the Internet and hence are more susceptible to click on Ads
-*	The lowest group of people i.e 3% of people who click on Ads belong to the Age group 19-24
+* People in the Age group 43-48 , 49-54 and 55+ , have a lower daily average time spent on the site compared to other groups 
+
+* Since we know from our previous observation that time spent does not reflect Ads clicked, lets us further analyze the percentage of people in each group who are likely to click on Ads as these are our target customers. 
+
+
+
+### PERCENTAGE OF PEOPLE IN EACH AGE GROUP WHO CLICKED ON ADS 
+<img src = "Images/bargraph.jpg" >
+
+1) We can observe that people above the age of 43+ tend to click on Ads more 
+
+*   100 % of people who belong to the Age group 55+ click on Ads 
+*   94 % of people who belong to the Age group 49-54 click on Ads 
+*   82 % of people who belong to the Age group 43-49 click on Ads 
+
+ 2) People below the age of 43 spend longer time on the site but do not tend to click on Ads 
+
+*   45 % of people who belong to the Age group 31-42 click on Ads 
+*  Only  27 % of people who belong to the Age group 25-30 click on Ads 
+*   23 % of people who belong to the Age group 19-24 click on Ads 
+
+
 
 ## Model
 
@@ -173,6 +191,14 @@ Ideally, we would like to improve our score, but 96% may be the best possible wi
 
 ## Limitations & Next Steps
 
-This dataset currently has very few datapoints for location, so we should work on collecting more data for specific countries and cities. Additionally, since the dataset has location and timestamp data, we can possibly create more powerful models using these features. 
-With digital marketing dominating over traditional marketing, a lot of companies prefer to advertise their products on the web. This model of ad click prediction will allow companies to maximize their revenue while offering targeted marketing to customers 
+Since the dataset has location and timestamp data, we can possibly create more powerful models using these features to understand user behavior based on location and time of the day.
+
+We can further investigate if search keywords, or ads may be relevant during certain periods of the day. Are ads less likely to get a click during the morning versus the afternoon or on weekends or weekdays? 
+
+Through our initial analysis we found that people who click on ads tend to spend a lot less time online. We should further investigate the reasoning behind this and find out who these people are and does spending more time online make people immune to ads. 
+
+With digital marketing dominating over traditional marketing, a lot of companies prefer to advertise their products on the web. This model of ad click prediction will allow companies to maximize their revenue while offering targeted marketing to customers
+
+
+
 
